@@ -1,0 +1,71 @@
+{
+    "package": {
+        "dependencies": {
+            "@storybook/addon-storyshots": "^5.3.17",
+            "@testing-library/jest-dom": "^4.2.4",
+            "@testing-library/react": "^9.5.0",
+            "@testing-library/user-event": "^7.2.1",
+            "classnames": "^2.2.6",
+            "lodash": "^4.17.15",
+            "moment": "^2.24.0",
+            "react": "^16.13.1",
+            "react-dom": "^16.13.1",
+            "react-scripts": "^3.4.1",
+            "sass": "^1.26.3",
+            "typescript": "^3.8.3",
+            "@storybook/addon-actions": "^5.3.17",
+            "@storybook/addon-links": "^5.3.17",
+            "@storybook/addons": "^5.3.17",
+            "@storybook/preset-create-react-app": "^2.1.1",
+            "@storybook/react": "^5.3.17",
+            "@typescript-eslint/eslint-plugin": "^2.25.0",
+            "@typescript-eslint/parser": "^2.25.0",
+            "babel-eslint": "^10.1.0",
+            "eslint": "^6.8.0",
+            "eslint-config-airbnb": "^18.1.0",
+            "eslint-config-airbnb-base": "^14.1.0",
+            "eslint-config-node": "^4.0.0",
+            "eslint-config-prettier": "^6.10.1",
+            "eslint-config-react-app": "^5.2.1",
+            "eslint-plugin-flowtype": "^4.7.0",
+            "eslint-plugin-import": "^2.20.1",
+            "eslint-plugin-jsx-a11y": "^6.2.3",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-prettier": "^3.1.2",
+            "eslint-plugin-react": "^7.19.0",
+            "eslint-plugin-react-hooks": "^2.5.1",
+            "prettier": "^2.0.2",
+            "webpack": "4.42.0"
+        },
+        "scripts": {
+            "start": "react-scripts start",
+            "build": "react-scripts build",
+            "test": "react-scripts test",
+            "eject": "react-scripts eject",
+            "prettier:list": "prettier --single-quote --list-different \"**/*.+(js|jsx|json|css|scss|md)\"",
+            "prettier:check": "prettier --check \"**/*.+(js|jsx|json|css|scss|md)\"",
+            "prettier:run": "prettier --write \"**/*.+(js|jsx|json|css|scss|md)\"",
+            "lint": "eslint .",
+            "lint:fix": "eslint --fix .",
+            "build-storybook": "build-storybook -s public",
+            "jest:integration": "jest -c integration/jest.config.js",
+            "test:integration": "start-server-and-test storybook http-get://localhost:9009 jest:integration",
+            "storybook": "start-storybook -p 9009 -s public"
+        },
+        "eslintConfig": {
+            "extends": "react-app"
+        },
+        "browserslist": {
+            "production": [
+                ">0.2%",
+                "not dead",
+                "not op_mini all"
+            ],
+            "development": [
+                "last 1 chrome version",
+                "last 1 firefox version",
+                "last 1 safari version"
+            ]
+        }
+    }
+  }
