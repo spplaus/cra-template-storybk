@@ -3,7 +3,7 @@
 ### npx
 
 ```sh
-npx create-react-app my-app --template cra-template-storybk
+npx create-react-app my-app --template storybk
 ```
 
 ## Includes
