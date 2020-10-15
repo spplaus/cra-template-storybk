@@ -8,7 +8,6 @@ npx create-react-app my-app --template storybk
 
 ## Includes
 
-- [axios][axios]
 - [eslint][eslint]
 - [prettier][prettier]
 - [react-testing-library][react-testing-library]
