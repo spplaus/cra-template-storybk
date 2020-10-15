@@ -16,10 +16,9 @@ npx create-react-app my-app --template storybk
 ## Features
 
 - VS Code support
-- Async data fetching with axios
+- StoryBook
 - Eslint configuration that's compatible with prettier
-- React hooks linting and testing
-- Styling with tailwindcss
+- Styling with SASS
 
 ## License
 
@@ -35,7 +34,6 @@ Licensed under the MIT license.
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
 [react-testing-library]: https://github.com/testing-library/react-testing-library
-[axios]: https://github.com/axios/axios
 [eslint]: https://eslint.org/
 [prettier]: https://prettier.io/docs/en/index.html
 <!-- prettier-ignore-end -->
