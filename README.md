@@ -7,7 +7,7 @@ npx create-react-app my-app --template storybk
 ```
 
 ## Includes
-
+- [storybook][storybook]
 - [eslint][eslint]
 - [prettier][prettier]
 - [react-testing-library][react-testing-library]
@@ -35,4 +35,5 @@ Licensed under the MIT license.
 [react-testing-library]: https://github.com/testing-library/react-testing-library
 [eslint]: https://eslint.org/
 [prettier]: https://prettier.io/docs/en/index.html
+[storybook]: https://storybook.js.org/
 <!-- prettier-ignore-end -->
